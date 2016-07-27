@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Casper</title>
+    <title>bScherm JavaScript Journey</title>
     <link>/</link>
     <description>Just a static blog.</description>
     <atom:link href="welcome-to-harp/feed.xml" rel="self" type="application/rss+xml" />
@@ -53,7 +53,7 @@
 <li><a href="http://harpjs.com/docs/">The Harp documentation</a></li>
 </ul>
 ]]></description>
-        <pubDate>Wed Jul 27 2016 15:34:36 GMT-0500 (CDT)</pubDate>
+        <pubDate>Wed Jul 27 2016 15:35:43 GMT-0500 (CDT)</pubDate>
         <link>/welcome-to-harp</link>
         <guid isPermaLink="true">/welcome-to-harp</guid>
       </item>
