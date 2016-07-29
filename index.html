@@ -18,9 +18,9 @@
     <!-- Styles'n'Scripts -->
     
     <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Noto+Serif:400,700,400italic|Open+Sans:700,400" />
-
-
-    
+    <link rel="stylesheet" type="text/css" href="/assets/css/screen.css" />
+    <link rel="stylesheet" type="text/css" href="/assets/prism/themes/prism-okaidia.css" />
+    <script type="text/javascript" src="/assets/js/jquery.fitvids.js"></script>
 
 
     <!-- Ghost outputs important style and meta data with this tag -->
@@ -50,7 +50,7 @@
     <article class="post"><!-- K: also needs class tag- for each tag -->
         <header class="post-header">
             <span class="post-meta"><time datetime="Thu, 28 Jul 2016 05:00:00 GMT">28 Jul 2016</time> on NLP,JavaScript,Data Science<!-- {{tags prefix="on "}}--></span>
-            <h2 class="post-title"><a href="nlp-parsing-words">NLP Parsing Names in JavaScript</a></h2>
+            <h2 class="post-title"><a href="nlp-parsing-words">!NLP Parsing Names in JavaScript</a></h2>
 
         </header>
         <section class="post-excerpt">
@@ -81,19 +81,100 @@
 
     <!-- The main JavaScript file for Casper -->
 
+    
+    <script type="text/javascript" src="/assets/js/index.js"></script>
+    <script type="text/javascript" src="/assets/prism/prism.js"></script>
+    <script type="text/javascript" src="/assets/prism/components/prism-javascript.min.js"></script>
+
+</body>
+</html>
+<!DOCTYPE html>
+<html>
+<head>
+    <!-- Document Settings -->
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+    <!-- Page Meta -->
+    <title>B Scherm</title>
+    <meta name="description" content="Following along with my travels of coding" />
+
+    <meta name="HandheldFriendly" content="True" />
+    <meta name="MobileOptimized" content="320" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><!-- K: Need assets variable , or something like basepath -->
+
+    <!-- <link rel="shortcut icon" href="favicon.ico">-->
+
+    <!-- Styles'n'Scripts -->
+    
+    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Noto+Serif:400,700,400italic|Open+Sans:700,400" />
     <link rel="stylesheet" type="text/css" href="/blog/assets/css/screen.css" />
     <link rel="stylesheet" type="text/css" href="/blog/assets/prism/themes/prism-okaidia.css" />
     <script type="text/javascript" src="/blog/assets/js/jquery.fitvids.js"></script>
+
+
+    <!-- Ghost outputs important style and meta data with this tag -->
+    <!-- {{ghost_head}} -->
+</head>
+<body class="home-template"><!-- K: body_class variable, home page class is home-template, post is like: post-template tag-getting-started -->
+
+    <!-- Everything else gets inserted here -->
+    
+        <!-- The big featured header on the homepage, with the site logo and description  -->
+<header class="site-head">
+    <div class="vertical">
+        <div class="site-head-content inner">
+            
+            <h1 class="blog-title">B Scherm</h1>
+            <h2 class="blog-description">Following along with my travels of coding</h2>
+        </div>
+    </div>
+</header>
+
+<!-- The main content area on the homepage  -->
+<main class="content" role="main">
+    <!-- Each post will be output using this markup  -->
+    
+    
+
+    <article class="post"><!-- K: also needs class tag- for each tag -->
+        <header class="post-header">
+            <span class="post-meta"><time datetime="Thu, 28 Jul 2016 05:00:00 GMT">28 Jul 2016</time> on NLP,JavaScript,Data Science<!-- {{tags prefix="on "}}--></span>
+            <h2 class="post-title"><a href="nlp-parsing-words">!NLP Parsing Names in JavaScript</a></h2>
+
+        </header>
+        <section class="post-excerpt">
+            <p>I&#39;m currently working on a project that helps you parse e-books into datasets ready for analytic consumption. After working on my prototype version of Game of Trends which is a tool for analyzing word frequency trends for words out of the Game of&hellip;</p>
+            <!-- K: Exerpt isn’t cuttoff exactly the same yet, needs to be plaintext -->
+        </section>
+    </article>
+
+
+    
+
+    <!--! After all the posts, we have the previous/next pagination links  -->
+    <!-- {{pagination}} -->
+
+</main>
+    
+
+    <footer class="site-footer">
+    <a class="subscribe icon-feed" href="/rss/index.xml"><span class="tooltip">Subscribe!</span></a>
+    <div class="inner">
+         <section class="copyright">All content copyright <a href="/">B Scherm</a> &copy; 2016 &bull; All rights reserved.</section>
+         <section class="poweredby">Proudly published with <a class="" href="http://harpjs.com">Harp</a></section>
+    </div>
+</footer>
+
+    <!-- Ghost outputs important scripts and data with this tag -->
+    <!-- {{ghost_foot}} -->
+
+    <!-- The main JavaScript file for Casper -->
+
+    
     <script type="text/javascript" src="/blog/assets/js/index.js"></script>
     <script type="text/javascript" src="/blog/assets/prism/prism.js"></script>
     <script type="text/javascript" src="/blog/assets/prism/components/prism-javascript.min.js"></script>
-    
-    <!-- <link rel="stylesheet" type="text/css" href="/assets/css/screen.css" />
-    <link rel="stylesheet" type="text/css" href="/assets/prism/themes/prism-okaidia.css" />
-    <script type="text/javascript" src="/assets/js/jquery.fitvids.js"></script>
-    <script type="text/javascript" src="/assets/js/index.js"></script>
-    <script type="text/javascript" src="/assets/prism/prism.js"></script>
-    <script type="text/javascript" src="/assets/prism/components/prism-javascript.min.js"></script> -->
 
 </body>
 </html>

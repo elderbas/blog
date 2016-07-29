@@ -8,7 +8,7 @@
     
     
       <item>
-        <title>NLP Parsing Names in JavaScript</title>
+        <title>!NLP Parsing Names in JavaScript</title>
         <description><![CDATA[<p>I&#39;m currently working on a project that helps you parse e-books into datasets ready for analytic consumption. After working on my prototype version of <a href="https://gotrends.herokuapp.com">Game of Trends</a> which is a tool for analyzing word frequency trends for words out of the Game of Thrones book series, I thought it&#39;d be more fun to have a tool that you can search not only how often a specific word happens, but <em>who</em> says it.</p>
 <p>That opened up even more ideas to being able to do sentiment analysis using APIs such as <a href="https://developer.ibm.com/watson/">IBM&#39;s Watson</a> and do entire expression searches per person.</p>
 <p>I realized I either needed to write a script that could fancily infer which character is speaking by context of the sentence arrangement, or I could read the book and and line by line cut and paste the text into:</p>
@@ -140,7 +140,7 @@ nlp.lexicon(newLexicon);
 </code></pre>
 <p>Users would then be identified and tagged as <code>PersonSelected</code> tag type. I didn&#39;t want to just opt for <code>Person</code> which is the default type it assigns names it&#39;s identified, so I could distinguish more easily characters entered by the user. There&#39;s a lot more you can do with the JS library <a href="https://github.com/nlp-compromise/nlp_compromise">nlp_compromise</a>, but it&#39;s the main thing I&#39;m using it for so far in my quest to create an e-book parsing tool.</p>
 ]]></description>
-        <pubDate>Thu Jul 28 2016 20:27:25 GMT-0500 (CDT)</pubDate>
+        <pubDate>Thu Jul 28 2016 20:43:42 GMT-0500 (CDT)</pubDate>
         <link>https://elderbas.github.io/blognlp-parsing-words</link>
         <guid isPermaLink="true">https://elderbas.github.io/blognlp-parsing-words</guid>
       </item>
