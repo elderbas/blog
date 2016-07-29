@@ -131,7 +131,7 @@ let listOfPeople = nlp.text(`Brian. Don't eat too much Captain Crunch.`).people(
 console.log('listOfPeople', listOfPeople);
 ```
 
-Which worked out great for simple names. I tested out some names I found in Game of Thrones and none of them hit as 'People' and they weren't flagged as people and sometimes not even nouns. Eventually I came across a section in the documentation where you can add your own words and assign it a specific Tag type (Person, Verb, Noun, or a custom named type like 'CherryOnTop'). This was perfect. I realized I could scan sentences around a given piece of speech text and use names already provided by the user and create Person tags for them by simply doing this before calling nlp.text() on anything
+Which worked out great for simple names. I tested out some names I found in Game of Thrones and none of them hit as 'People' and sometimes not even nouns. Eventually I came across a section in the documentation where you can add your own words and assign it a specific Tag type (Person, Verb, Noun, or a custom named type like 'CherryOnTop'). This was perfect. I realized I could scan sentences around a given piece of speech text and use names already provided by the user and create Person tags for them by simply doing this before calling nlp.text() on anything
 
 ```javascript
 let newLexicon = {};

@@ -1,16 +1,16 @@
 {
   "globals": {
     "blog": {
-      "title": "bScherm JavaScript Journey",
-      "description": "Just a static blog.",
+      "title": "B Scherm",
+      "description": "Following along with my travels of coding",
       "logo": false,
       "cover": false,
-      "url": "/"
+      "url": "https://elderbas.github.io/blog"
     },
     "author": {
-      "name": "Kenneth Ormandy",
-      "email": "kenneth@chloi.io",
-      "bio": "Hi, I like Harp"
+      "name": "Brian Schermerhorn",
+      "email": "elderbas@gmail.com",
+      "bio": "github.com/elderbas - "
     }
   },
   "domains": []
