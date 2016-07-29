@@ -24,3 +24,4 @@ echo 'published '
 cd $projDir
 cd public
 perl -pi -w -e 's/\/blog\/assets/\/assets/g;' _layout.ejs
+
