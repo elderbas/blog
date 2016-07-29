@@ -1,0 +1,21 @@
+{
+  "name": "kitchenSink",
+  "homepage": "https://github.com/elderbas/blog",
+  "authors": [
+    "bschermerhorn <bschermerhorn@bigsquid.com>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "public/assets",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "prism": "prismjs#^1.5.1"
+  }
+}
