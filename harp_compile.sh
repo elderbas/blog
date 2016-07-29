@@ -3,8 +3,11 @@ projDir="/Users/bschermerhorn/SideProjects/elderbas.github.io_blog/kitchenSink"
 outputDir="/Users/bschermerhorn/SideProjects/elderbas.github.io_blog/gh-pages"
 
 cd $projDir
-# sed -i.bak 's/\/assets/\/blog\/assets/g' public/_layout.ejs
+cd public
+perl -pi -w -e 's/\/assets/\/blog\/assets/g;' _layout.ejs
 
+
+cd $projDir
 harp compile $projDir $outputDir
 
 cd $projDir
@@ -19,4 +22,5 @@ git push origin gh-pages
 echo 'published '
 
 cd $projDir
-# sed -i.bak 's/\/blog\/assets/\/assets/g' public/_layout.ejs
+cd public
+perl -pi -w -e 's/\/blog\/assets/\/assets/g;' _layout.ejs
