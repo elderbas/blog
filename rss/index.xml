@@ -140,7 +140,7 @@ nlp.lexicon(newLexicon);
 </code></pre>
 <p>Users would then be identified and tagged as <code>PersonSelected</code> tag type. I didn&#39;t want to just opt for <code>Person</code> which is the default type it assigns names it&#39;s identified, so I could distinguish more easily characters entered by the user. There&#39;s a lot more you can do with the JS library <a href="https://github.com/nlp-compromise/nlp_compromise">nlp_compromise</a>, but it&#39;s the main thing I&#39;m using it for so far in my quest to create an e-book parsing tool.</p>
 ]]></description>
-        <pubDate>Thu Jul 28 2016 20:47:17 GMT-0500 (CDT)</pubDate>
+        <pubDate>Thu Jul 28 2016 20:47:43 GMT-0500 (CDT)</pubDate>
         <link>https://elderbas.github.io/blognlp-parsing-words</link>
         <guid isPermaLink="true">https://elderbas.github.io/blognlp-parsing-words</guid>
       </item>
